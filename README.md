@@ -40,4 +40,4 @@ If you encounter any issues or have questions, feel free to open an issue on Git
 
 ## Author
 
-- SABABA - https://github.com/AlgoMystique
+[SABABA](https://github.com/AlgoMystique)
