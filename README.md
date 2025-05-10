@@ -16,10 +16,28 @@ You can see how the extension works in action by checking out the demo video bel
 
 [Watch the demo on YouTube](https://www.youtube.com/watch?v=5JcZKWqPCnk)
 
-## Installation
+## How to Install
 
-1. **Download the extension**:
-   - Clone this repository or download the ZIP file.
+### Load the extension in Chrome:
+
+1. Open Chrome and go to `chrome://extensions/`.
    
-   ```bash
-   git clone https://github.com/your-username/floating-pen.git
+2. Enable **"Developer mode"** in the top right corner.
+   
+3. Click on **"Load unpacked"** and select the folder where you downloaded the extension.
+
+### Enjoy the positivity!
+
+After installation, open a new tab to see the motivational quotes in action!
+
+## How It Works
+
+The extension pulls a random motivational quote from a predefined list each time you open a new tab. It’s a simple and effective way to brighten your mood and stay motivated throughout the day!
+
+## Support 
+
+If you encounter any issues or have questions, feel free to open an issue on GitHub. Additionaly, you can reach out to me at sababa.codes@gmail.com
+
+## Author
+
+- SABABA - https://github.com/AlgoMystique
