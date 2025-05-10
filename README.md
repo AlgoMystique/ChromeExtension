@@ -5,9 +5,7 @@ A Chrome extension designed to brighten your day by displaying relatable and mot
 ## Features
 
 - **Random Motivational Quotes**: Get a new, inspirational quote every time you open a new tab.
-- 
 - **Colorful and Fun**: The extension adds a touch of color to your browser window, making your day a little brighter.
-- 
 - **User-Friendly**: Simply install and enjoy the positive vibes with no extra setup required!
 
 ## Demo
