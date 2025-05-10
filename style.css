@@ -1,0 +1,161 @@
+
+body {
+    font-family: 'Georgia', serif;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    /* Background will be set via JavaScript */
+}
+
+.container {
+    position: relative;
+    width: 800px;
+    height: 500px;
+}
+
+.quote-area {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 600px;
+    padding: 30px 40px;
+    background: rgba(255, 255, 255, 0.15);
+    border-radius: 20px;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    color: #fdfdfd;
+    font-family: 'Georgia', serif;
+    text-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    transition: all 0.3s ease;
+}
+.quote-area::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    border-radius: 20px;
+    box-shadow: 0 0 30px rgba(255, 255, 255, 0.1);
+    pointer-events: none;
+}
+.quote-text {
+    position: relative;
+    font-size: 24px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    z-index: 1;
+    padding: 20px;
+    font-style: italic;
+}
+
+.quote-text::before,
+.quote-text::after {
+    font-size: 40px;
+    font-family: serif;
+    color: rgba(255, 255, 255, 0.4);
+    position: absolute;
+}
+
+.quote-text::before {
+    content: "“";
+    left: -15px;
+    top: 0;
+}
+
+.quote-text::after {
+    content: "”";
+    right: -15px;
+    bottom: 0;
+}
+@media (max-width: 600px) {
+    .quote-text::before,
+    .quote-text::after {
+        font-size: 28px;
+        left: -10px;
+        right: -10px;
+    }
+}
+
+
+
+.quote-author {
+    font-family: 'Brush Script MT', cursive;
+    font-size: 20px;
+    color: #f0e6f6;
+    text-align: right;
+    opacity: 0;
+    transition: opacity 1s ease-in;
+}
+
+
+.ink-bottle {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    width: 60px;
+    height: 80px;
+    background-image: url('ink-bottle.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+}
+
+.ink-bottle:before, .ink-bottle:after {
+    display: none;
+}
+.feather {
+    position: absolute;
+    bottom: 70px;
+    right: 40px;
+    width: 30px;
+    height: 60px;
+    transform-origin: bottom right;
+    filter: drop-shadow(0px 2px 3px rgba(0, 0, 0, 0.2));
+    z-index: 10;
+    opacity: 0;
+    background-image: url('feather-pen.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    pointer-events: none;
+    transition: transform 0.08s linear;
+    will-change: transform;
+    animation: feather-bob 1s ease-in-out infinite; /* Add bobbing animation */
+}
+
+/* Keyframes for the feather's up-and-down movement */
+@keyframes feather-bob {
+    0% { transform: translateY(0); }
+    50% { transform: translateY(-5px); }
+    100% { transform: translateY(0); }
+}
+
+
+.feather svg {
+    width: 100%;
+    height: 100%;
+}
+
+.ink-drop {
+    position: absolute;
+    width: 4px;
+    height: 4px;
+    background-color: #1a202c;
+    border-radius: 50%;
+    opacity: 0;
+    pointer-events: none;
+}
+
+.glow {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background: radial-gradient(circle, rgba(66, 133, 244, 0.4) 0%, rgba(66, 133, 244, 0) 70%);
+    border-radius: 50%;
+    opacity: 0;
+    pointer-events: none;
+}
