@@ -12,9 +12,9 @@ A Chrome extension designed to brighten your day by displaying relatable and mot
 
 ## Demo
 
-You can see how the extension works in action by checking out the demo video below:
+Check out the demo of the extension in action:
 
-[Watch the demo on YouTube](https://www.youtube.com/watch?v=5JcZKWqPCnk)
+[![Demo Video](https://img.youtube.com/vi/5JcZKWqPCnk/0.jpg)](https://www.youtube.com/watch?v=5JcZKWqPCnk)
 
 ## How to Install
 
