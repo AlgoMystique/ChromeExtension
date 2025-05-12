@@ -5,8 +5,11 @@ Floating Feather Quotes is a gentle Chrome extension that offers emotional suppo
 Why install it?
 
 💬 Receive gentle, supportive quotes while you browse
+
 🌸 Designed to reduce stress and promote self-kindness
+
 🌿 Non-intrusive and minimalist — blends seamlessly into your workflow
+
 🌈 A simple way to create calm and encouragement in your daily routine
 
 ## Features
