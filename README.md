@@ -41,7 +41,7 @@ After installation, open a new tab to see the motivational quotes in action!
 
 The extension pulls a random motivational quote from a predefined list each time you open a new tab. It’s a simple and effective way to brighten your mood and stay motivated throughout the day!
 
-# Privacy Policy
+## Privacy Policy
 
 We respect your privacy and do not collect, store, or share any personal information. Our extension does not track, monitor, or store any data related to your use.
 
