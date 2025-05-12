@@ -31,7 +31,7 @@ Check out the demo of the extension in action:
 1. Open Chrome and go to 
 [Floating Feather Quote Writer](https://chromewebstore.google.com/detail/floating-feather-quote-wr/nlcfeiinafnikingpjfbbeonpfooiolg)
    
-3. Click on **Add To Chrome
+3. Click on **Add To Chrome**
 
 ### Enjoy the positivity!
 
