@@ -28,11 +28,10 @@ Check out the demo of the extension in action:
 
 ### Load the extension in Chrome:
 
-1. Open Chrome and go to `chrome://extensions/`.
+1. Open Chrome and go to 
+[Floating Feather Quote Writer](https://chromewebstore.google.com/detail/floating-feather-quote-wr/nlcfeiinafnikingpjfbbeonpfooiolg)
    
-2. Enable **"Developer mode"** in the top right corner.
-   
-3. Click on **"Load unpacked"** and select the folder where you downloaded the extension.
+3. Click on **Add To Chrome
 
 ### Enjoy the positivity!
 
