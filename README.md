@@ -1,6 +1,13 @@
-# Floating Pen - Motivational Quotes Chrome Extension
+# Floating Feather Quote Writer- Chrome Extension ( NOW LIVE ) 
 
-A Chrome extension designed to brighten your day by displaying relatable and motivational quotes. The Floating Pen brings color and positivity to your screen, offering emotional support and motivation on those dull and boring days.
+Floating Feather Quotes is a gentle Chrome extension that offers emotional support and encouragement throughout your day. As you browse, a graceful feather drifts across your screen, writing out thoughtful, motivational quotes designed to lift your spirits and help you feel seen. Whether you're facing a tough day, feeling overwhelmed, or just need a quiet moment of reassurance, this extension brings kindness to your screen , one quote at a time.
+
+Why install it?
+
+💬 Receive gentle, supportive quotes while you browse
+🌸 Designed to reduce stress and promote self-kindness
+🌿 Non-intrusive and minimalist — blends seamlessly into your workflow
+🌈 A simple way to create calm and encouragement in your daily routine
 
 ## Features
 
